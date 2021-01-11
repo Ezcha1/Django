@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <title>My cards</title>
+</head>
+<body>
+  <main class="container">
+      <div class="col-8 col-lg-4 offset-2 offset-lg-4">
+        <form method="post">
+          <div class="text-center mt-5 b-1">
+            <h1 class="h3 mb-3 font-weight-normal">Data Base of my classmates</h1>
+          </div>
+            {% load crispy_forms_tags %}
+            {% crispy form %}
+        </form>
+      </div>
+  </main>
+</body>
+</html>
